@@ -1,0 +1,40 @@
+.laptop-image-composite {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  position: relative;
+  img {
+    width: 100%;
+  }
+}
+
+.laptop-frame {
+  position: relative;
+  z-index: 1;
+}
+
+.screen {
+  width: 70%;
+  height: 85%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 6%;
+  left: 22%;
+  // z-index: -1;
+  overflow: hidden;
+  img {
+    min-height: 100%;
+  }
+}
+
+// @media (max-width: 876px) {
+//   .laptop-image-composite{
+//     width: 50%;
+//   }
+// }
+// @media (max-width: 576px) {
+//   .laptop-image-composite{
+//     width: 80%;
+//   }
+// }
