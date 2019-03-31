@@ -10,6 +10,6 @@ gem 'middleman-livereload', '~> 3.4', '>= 3.4.6'
 
 # Assets
 gem 'jquery-middleman'
-gem 'bootstrap-sass', '3.3.6'
+gem "bootstrap-sass", "3.4.1"
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'middleman-autoprefixer'
